@@ -1,0 +1,48 @@
+@import '../../../constants.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin-top: 23px;
+    color: $baseBlack;
+
+    &__logo {
+      font-size: 48px;
+      // margin-left: 84px;
+    }
+
+    &__contacts {
+        display: flex;
+        // border: 2px solid red;
+        // margin-right: 84px;
+        &__number,
+        &__mail {
+          // border: 1px solid rgb(95, 31, 235);
+          font-weight: 500;
+
+            &-icon {
+               border: 1px solid rgb(13, 255, 0);
+               width: 20px;
+               height: 20px;
+               margin-left: 10px;
+               display: inline-block;;
+              //  background-color: red;
+               background-image: url('../../../assets/images/telephone.svg') no-repeat center;
+               background-size: cover;
+            }
+        }
+    }
+}
+
+.title {
+  text-align: center;
+  width: 50%;
+  font-weight: bold;
+font-size: 50px;
+margin: auto;
+margin-top: 205px;
+}
