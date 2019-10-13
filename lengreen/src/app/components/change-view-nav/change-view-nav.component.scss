@@ -1,0 +1,34 @@
+@import '../../../constants.scss';
+
+.navigation {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 350;
+    font-size: 26px;
+    line-height: 30px;
+    color: $gray;
+
+    &-link {
+        padding-left: 10px;
+        border-bottom: 3px solid $gray;
+        text-decoration: none;
+
+        &:visited {
+          color: $gray;
+        }
+
+        &:hover {
+            color: $baseBlack;
+            border-bottom: 3px solid $baseYellow;
+            cursor: pointer;
+        }
+    }
+}
+
+        
+a:active{
+  border-bottom: 3px solid $baseYellow;
+  color: $baseBlack !important;
+}

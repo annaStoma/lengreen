@@ -1,5 +1,9 @@
 @import '../../../constants.scss';
 
+header{
+  height: 150px;
+}
+
 header a {
   display: block;
   text-decoration: none;
@@ -7,8 +11,6 @@ header a {
   font-family: 'Roboto';
   font-size: 30px;
   cursor: pointer;
-  // position: absolute;
-
 }
 
 nav {
@@ -41,6 +43,7 @@ nav ul {
     border-bottom: 3px solid $baseYellow;
     color: $baseBlack !important;
   }
+
 }
 .topmenu li a:hover {
   color: $baseYellow;
