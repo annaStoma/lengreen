@@ -12,27 +12,27 @@
 
     &__logo {
       font-size: 48px;
-      // margin-left: 84px;
     }
 
     &__contacts {
         display: flex;
-        // border: 2px solid red;
-        // margin-right: 84px;
+
         &__number,
         &__mail {
-          // border: 1px solid rgb(95, 31, 235);
           font-weight: 500;
 
             &-icon {
-               border: 1px solid rgb(13, 255, 0);
                width: 20px;
                height: 20px;
-               margin-left: 10px;
+               margin-left: 50px;
                display: inline-block;;
-              //  background-color: red;
-               background-image: url('../../../assets/images/telephone.svg') no-repeat center;
+               background-image: url('../../../assets/images/telephone.svg');
                background-size: cover;
+
+               &.mi{
+                background-image: url('../../../assets/images/email.svg');
+                background-size: cover;
+               }
             }
         }
     }
@@ -42,7 +42,7 @@
   text-align: center;
   width: 50%;
   font-weight: bold;
-font-size: 50px;
-margin: auto;
-margin-top: 205px;
+  font-size: 50px;
+  margin: auto;
+  margin-top: 205px;
 }

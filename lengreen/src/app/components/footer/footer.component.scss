@@ -8,7 +8,7 @@
     padding-top: 100px;
     font-weight: bold;
     margin-top: 40px;
-    
+
     &-logo {
         display: flex;
         flex-direction: column;
@@ -18,20 +18,19 @@
         }
         &__time {
             font-size: 24px;
-            width: 60%;
+            // width: 60%;
             margin-top: 36px;
             display: flex;
             justify-content: space-between;
-            width: 65%;
+            // width: 65%;
 
             &-icon {
-                border: 1px solid rgb(47, 0, 255);
-                width: 20px;
-                height: 20px;
-                margin-right: 20px;
-                display: inline-block;
-                background-image: url('../../../assets/images/telephone.svg') no-repeat center;
-                background-size: cover;
+              width: 20px;
+              height: 20px;
+              margin-right: 20px;
+              display: inline-block;
+              background-image: url('../../../assets/images/telephone.svg');
+              background-size: cover;
             }
         }
     }
@@ -50,15 +49,16 @@
         font-size: 24px;
 
         &-icon {
-          border: 1px solid rgb(47, 0, 255);
           width: 20px;
           height: 20px;
-          // margin-left: 10px;
           margin-right: 20px;
           display: inline-block;
-          background-image: url('../../../assets/images/telephone.svg') no-repeat center;
+          background-image: url('../../../assets/images/telephone.svg');
           background-size: cover;
         }
+      }
+      .mi{
+        background-image: url('../../../assets/images/email.svg');
       }
     }
 
