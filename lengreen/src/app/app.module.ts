@@ -16,6 +16,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { OfferComponent } from './components/offer/offer.component';
 import { FurnitureComponent } from './components/furniture/furniture.component';
+import { NavigationCorporativeComponent } from './components/navigation-corporative/navigation-corporative.component';
+import { WhyChooseUsComponent } from './components/why-choose-us/why-choose-us.component';
+import { ProductionComponent } from './components/production/production.component';
+import { PartnersComponent } from './components/partners/partners.component';
+import { AboutComponent } from './components/about/about.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 // platformBrowserDynamic()
@@ -43,6 +49,11 @@ import { FurnitureComponent } from './components/furniture/furniture.component';
     FooterComponent,
     OfferComponent,
     FurnitureComponent,
+    NavigationCorporativeComponent,
+    WhyChooseUsComponent,
+    ProductionComponent,
+    PartnersComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,6 +61,8 @@ import { FurnitureComponent } from './components/furniture/furniture.component';
     BrowserAnimationsModule,
     ImageSladerComponentModule,
     NgbModule,
+    HttpClientModule,
+    
 
   ],
   providers: [],

@@ -1,22 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-corporative-clients-page',
-  templateUrl: './corporative-clients-page.component.html',
-  styleUrls: ['./corporative-clients-page.component.scss']
+  selector: 'app-partners',
+  templateUrl: './partners.component.html',
+  styleUrls: ['./partners.component.scss']
 })
-export class CorporativeClientsPageComponent implements OnInit {
+export class PartnersComponent implements OnInit {
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
-
   public images: Array<string> = [
     '/assets/images/page-2/slider1.jpg',
     '/assets/images/page-2/slider2.jpg',
     '/assets/images/page-2/slider3.jpg',
   ];
+  ngOnInit() {
+  }
 
 }

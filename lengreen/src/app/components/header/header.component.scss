@@ -1,17 +1,22 @@
 @import '../../../constants.scss';
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+.cont{
+  background-color: $black;
+}
 .header {
     display: flex;
     justify-content: space-around;
     font-size: 24px;
     line-height: 56px;
     text-transform: uppercase;
-    margin-top: 23px;
-    color: $baseBlack;
+    padding-top: 23px;
+    height: 100px;
+    color: $baseWhite;
+    background-color: $lightBlack;
 
     &__logo {
-      font-size: 48px;
+      font-size:36px;
     }
 
     &__contacts {
@@ -45,4 +50,6 @@
   font-size: 50px;
   margin: auto;
   margin-top: 205px;
+  background-color: $black;
+  color: $baseWhite;
 }

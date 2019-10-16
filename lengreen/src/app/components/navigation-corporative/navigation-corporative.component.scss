@@ -1,0 +1,82 @@
+@import '../../../constants.scss';
+
+header {
+    height: 250px;
+    background-color: $black;
+    position: relative;
+
+    .button {
+        text-align: center; 
+        width: 100%;
+        
+        &-calculate{
+            color: $gray;
+            width: 18%;
+            height: 90px;
+            border: 3px solid $gray;
+            border-radius: 60px;
+            font-size: 2rem;
+            background: none;
+            outline: none;
+            margin-bottom: 30px;
+            position: absolute;
+            bottom: 0px;
+            left: 0; 
+            right: 0; 
+            margin-left: auto; 
+            margin-right: auto; 
+
+            &:hover {
+                color: $baseWhite;
+                border: none;
+                background-color: $baseYellow;
+            }
+        }
+    }
+}
+
+header a {
+
+    display: block;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-size: 30px;
+    cursor: pointer;
+    color: $baseWhite;
+}
+
+nav {
+    display: table;
+    margin: 0 auto;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topmenu:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.topmenu>li {
+    float: left;
+    position: relative;
+}
+
+.topmenu>li>a {
+    font-weight: bold;
+    color: $baseWhite;
+    padding: 15px 30px;
+    &:hover {
+        border-bottom: 3px solid $baseYellow;
+        color: $baseWhite !important;
+    }
+}
+

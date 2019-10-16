@@ -3,43 +3,43 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background-color: $black;
     &-title {
-      margin-top: 40px;
-      font-weight: 500;
-      font-size: 50px;
+        margin-top: 40px;
+        font-weight: 500;
+        font-size: 50px;
+        color: $baseWhite;
+        &__title-number {
+            font-size: 60px;
+            color: $baseYellow;
+            margin-right: 20px;
+        }
     }
-
     &-descr {
-      margin-top: 40px;
-      font-size: 30px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 50px;
-      padding-bottom: 50px;
-
+        margin-top: 40px;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: $gray;
         &-descr1 {
-          background-color: $lightOrange2;
-
+            background-color: $lightBlack;
         }
         &-descr2 {
-          background-color: $lightOrange3;
-
+            background-color: $softGray;
         }
         &-descr3 {
-          background-color: $lightOrange4;
+            background-color: $lightBlack;
         }
-
         &__text {
             width: 70%;
             text-align: center;
         }
-
         &__items {
-          margin-top: 40px;
+            margin-top: 40px;
         }
-
         &__button {
             color: $gray;
             width: 18%;
@@ -50,7 +50,6 @@
             background: none;
             margin-top: 40px;
             outline: none;
-
             &:hover {
                 color: $baseWhite;
                 border: none;
@@ -61,11 +60,11 @@
 }
 
 li {
-  margin: 0;
-	padding: 10px 0 10px 60px;
-	list-style: none;
-	background-image: url('../../../assets/images/check-mark-sign.svg');
-	background-repeat: no-repeat;
-	background-position: left center;
-  background-size: 30px;
+    margin: 0;
+    padding: 10px 0 10px 60px;
+    list-style: none;
+    background-image: url('../../../assets/images/check-mark-sign.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
 }

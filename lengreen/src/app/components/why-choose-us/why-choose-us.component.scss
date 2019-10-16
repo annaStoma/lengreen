@@ -1,4 +1,5 @@
 @import '../../../constants.scss';
+
 .offer {
     display: flex;
     flex-direction: column;
@@ -18,8 +19,7 @@
        
         &__item {
             width: 40%;
-            // height: 635px;
-            padding-bottom: 180px; 
+            padding-bottom: 80px; 
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -29,7 +29,6 @@
             &__icon{
               width: 100px;
               height: 100px;
-              // background-image: url('../../../assets/images/delivery-truck.svg');
               background-size: 100%;
             }
             &__title{
@@ -39,7 +38,6 @@
               margin-top: 50px;
               width: 80%;
               text-align: center;
-              height: 150px;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -53,35 +51,17 @@
               text-align: center;
             }
 
-            &__button{
-             color: $baseWhite;
-             width: 50%;
-             height: 60px;
-             border: 3px solid $baseWhite;
-             border-radius: 60px;
-             font-size: 2rem;
-             background: none;
-             margin-top: 40px;
-             position: absolute;
-             bottom: 40px;
-             outline: none;
-
-             &:hover{
-              color: $baseYellow;
-              border: 3px solid $baseYellow;
-             }
-            }
         }
     }
     .item {
         &-1 {
-            background-color: $black;
+            background-color: $softGray;
         }
         &-2 {
             background-color: $lightBlack;
         }
         &-3 {
-            background-color: $black;
+            background-color: $softGray;
         }
     }
 }
