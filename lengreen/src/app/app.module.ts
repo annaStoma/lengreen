@@ -24,6 +24,8 @@ import { AboutComponent } from './components/about/about.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CardComponent } from './components/shared/card/card.component';
 import { FurnitureForKitchenComponent } from './furniture-for-kitchen/furniture-for-kitchen.component';
+import { FullInfoComponent } from './full-info/full-info.component';
+import { CalculateTheCostButtonComponent } from './components/shared/calculate-the-cost-button/calculate-the-cost-button.component';
 
 
 // platformBrowserDynamic()
@@ -58,6 +60,8 @@ import { FurnitureForKitchenComponent } from './furniture-for-kitchen/furniture-
     AboutComponent,
     CardComponent,
     FurnitureForKitchenComponent,
+    FullInfoComponent,
+    CalculateTheCostButtonComponent,
   ],
   imports: [
     BrowserModule,

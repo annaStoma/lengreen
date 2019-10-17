@@ -1,2 +1,6 @@
-<p>furniture-for-kitchen works!</p>
-<app-card></app-card>
+<div class="cards">
+    <div *ngFor="let item of items, let i=index">
+        <app-card [item]="item" (click)="routeToItemInfo(item.id)" [id]="item.id"></app-card>
+    </div>
+</div>
+<div class="footer">Цены указаны за 1 погонный метр кухни в базовой комплектации с доставкой и установкой.</div>

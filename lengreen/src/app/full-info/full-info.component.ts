@@ -1,22 +1,23 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit, Input } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-furniture-for-kitchen',
-  templateUrl: './furniture-for-kitchen.component.html',
-  styleUrls: ['./furniture-for-kitchen.component.scss']
+  selector: 'app-full-info',
+  templateUrl: './full-info.component.html',
+  styleUrls: ['./full-info.component.scss']
 })
-export class FurnitureForKitchenComponent implements OnInit {
+export class FullInfoComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  @Input() id: string;
+  public item: any;
+
+  constructor(private activateRoute: ActivatedRoute) {
+    this.id = activateRoute.snapshot.params['id'];
+  }
 
   ngOnInit() {
+    this.getInfo(this.id);
   }
-
-  routeToItemInfo(id: string) {
-    this.router.navigate(['/kitchen', id]);
-  }
-
 
   items: any = [
     {
@@ -92,6 +93,15 @@ export class FurnitureForKitchenComponent implements OnInit {
       url: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg'
     },
   ]
+
+  getInfo(id) {
+    // const films = JSON.parse(localStorage.getItem('films'));
+    this.items.forEach(item => {
+      if (item.id == id) {
+         this.item = item;
+      }
+    });
+  }
 
 
 }

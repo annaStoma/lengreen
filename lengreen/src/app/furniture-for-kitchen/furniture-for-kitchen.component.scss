@@ -1,0 +1,18 @@
+@import '../../constants.scss';
+
+.cards {
+    background-color: $lightBlack;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer{
+  width: 100%;
+  height: 60px;
+  background-color: $cardBlack;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $softGray;
+  font-size: $text;
+}

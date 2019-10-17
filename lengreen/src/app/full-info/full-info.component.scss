@@ -1,0 +1,41 @@
+@import '../../constants.scss';
+
+.item{
+  display: flex;
+  justify-content: space-around;
+  background-color: $darkGray;
+  color: $baseWhite;
+  padding: 40px 40px;
+
+  &-img { 
+    margin-left: 60px;
+    width: 600px;
+    width: 600px;
+    }
+
+  &-description{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__name{
+      font-size: $title;
+      color: $baseYellow;
+    }
+
+    &-elem {
+      margin-top: 30px;
+      font-size: $text;
+
+      &-prise {
+        font-size: $title;
+        font-weight: bold;
+      }
+
+      &__title {
+        color: $softGray;
+      }
+    }
+  }
+}

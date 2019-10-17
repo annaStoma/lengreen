@@ -1,14 +1,16 @@
 @import '../../../../constants.scss';
 .card {
-    width: 500px;
-    height: 550px;
+    width: 400px;
     display: flex;
     flex-direction: column;
-
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    
     &-image {
-        width: 100%;
+        width: 400px;
         height: 400px;
-        background-image: url('../../../../assets/images/card.png');
     }
 
     &-description {
@@ -20,18 +22,38 @@
 
         &__name{
           font-size: $title;
+          align-self: flex-end;
+          margin-right: 30px;
+          font-weight: bold;
+          margin-top: 10px;
         }
 
         &__number {
-          
-          &-line {
+          display: inline-flex;
+          justify-content: space-around;
+          align-items: center;
+          font-weight: bold;
+          font-size: $title + 6px;
+          color: $baseYellow;
 
+          &-line {
+            display: inline-block;
+            width: 60%;
+            height: 3px;
+            background-color: $baseYellow;
           }
-  
         }
 
         &__prise {
-
+          align-self: flex-end;
+          height: 100%;
+          margin-right: 30px;
+          font-size: $text;
         }
+    }
+
+    &:hover{
+      box-shadow: 0 0 15px $baseBlack;
+      transition: 0.5s;
     }
 }
