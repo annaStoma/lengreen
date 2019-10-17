@@ -22,6 +22,8 @@ import { ProductionComponent } from './components/production/production.componen
 import { PartnersComponent } from './components/partners/partners.component';
 import { AboutComponent } from './components/about/about.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CardComponent } from './components/shared/card/card.component';
+import { FurnitureForKitchenComponent } from './furniture-for-kitchen/furniture-for-kitchen.component';
 
 
 // platformBrowserDynamic()
@@ -54,6 +56,8 @@ import { HttpClientModule } from '@angular/common/http';
     ProductionComponent,
     PartnersComponent,
     AboutComponent,
+    CardComponent,
+    FurnitureForKitchenComponent,
   ],
   imports: [
     BrowserModule,
