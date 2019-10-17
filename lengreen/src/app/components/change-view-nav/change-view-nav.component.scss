@@ -8,16 +8,18 @@
     font-weight: 350;
     font-size: $text;
     line-height: 20px;
-    color: $lightBlack;
+    color: $softGray;
     background-color: $black;
 
     &-link {
-        padding-left: 10px;
-        border-bottom: 3px solid $gray;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid $softGray;
         text-decoration: none;
 
         &:visited {
-            color: $gray;
+            color: $softGray;
         }
         
         &:hover {

@@ -54,10 +54,10 @@
             }
 
             &__button {
-                color: $gray;
+                color: $softGray;
                 width: 50%;
                 height: 60px;
-                border: 3px solid $gray;
+                border: 3px solid $softGray;
                 border-radius: 30px;
                 font-size: $button;
                 background: none;
@@ -79,7 +79,7 @@
         }
 
         &-2 {
-            background-color: $softGray;
+            background-color: $darkGray;
         }
 
         &-3 {

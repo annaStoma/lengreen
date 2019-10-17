@@ -1,11 +1,10 @@
 @import '../../../constants.scss';
-
-header {
+div {
     height: 130px;
     background-color: $black;
 }
 
-header a {
+div a {
     display: block;
     text-decoration: none;
     outline: none;
@@ -45,7 +44,6 @@ nav ul {
     font-weight: bold;
     color: $baseWhite;
     padding: 20px 20px;
-
     &:hover {
         border-bottom: 3px solid $baseYellow;
         color: $baseWhite !important;
@@ -83,7 +81,6 @@ nav ul {
     text-decoration: none;
     font-size: $text;
     color: $baseWhite;
-    
     &:visited {
         color: $baseWhite;
     }
