@@ -1,3 +1,4 @@
+<button routerLink="/"> назад </button>
 <div class="cards">
     <div *ngFor="let item of items, let i=index">
         <app-card [item]="item" (click)="routeToItemInfo(item.id)" [id]="item.id"></app-card>

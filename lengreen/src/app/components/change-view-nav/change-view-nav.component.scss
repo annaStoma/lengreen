@@ -16,12 +16,9 @@
         padding-right: 30px;
         padding-bottom: 10px;
         border-bottom: 3px solid $softGray;
+        color: $softGray;
         text-decoration: none;
 
-        &:visited {
-            color: $softGray;
-        }
-        
         &:hover {
             color: $baseWhite;
             border-bottom: 3px solid $baseYellow;
@@ -32,5 +29,9 @@
 
 a:active {
     border-bottom: 3px solid $baseYellow;
-    color: $baseBlack !important;
+}
+
+.active{
+    color: $baseWhite;
+    border-bottom: 3px solid $baseYellow;
 }

@@ -1,4 +1,4 @@
-@import '../../constants.scss';
+@import '../../../constants.scss';
 
 .item{
   display: flex;
@@ -15,6 +15,7 @@
 
   &-description{
     width: 40%;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;

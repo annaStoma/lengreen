@@ -14,7 +14,7 @@ export class FurnitureForKitchenComponent implements OnInit {
   }
 
   routeToItemInfo(id: string) {
-    this.router.navigate(['/kitchen', id]);
+    this.router.navigate(['/private/kitchen', id]);
   }
 
 
@@ -92,6 +92,5 @@ export class FurnitureForKitchenComponent implements OnInit {
       url: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg'
     },
   ]
-
 
 }
