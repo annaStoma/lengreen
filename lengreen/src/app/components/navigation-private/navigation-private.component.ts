@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 
 @Component({
   selector: 'app-navigation-private',
@@ -6,5 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation-private.component.scss'],
 })
 export class NavigationPrivateComponent {
+
+  // constructor( cd: ChangeDetectorRef){
+  //   cd.detectChanges;
+  // }
 
 }

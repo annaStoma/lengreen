@@ -1,4 +1,5 @@
 @import '../../../constants.scss';
+
 div {
     height: 130px;
     background-color: $black;
@@ -43,7 +44,9 @@ nav ul {
 .topmenu>li>a {
     font-weight: bold;
     color: $baseWhite;
-    padding: 20px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
     &:hover {
         border-bottom: 3px solid $baseYellow;
         color: $baseWhite !important;
@@ -55,7 +58,6 @@ nav ul {
 }
 
 .submenu-link:after {
-    font-family: "FontAwesome";
     color: inherit;
     margin-left: 10px;
 }

@@ -74,7 +74,8 @@ nav ul {
 .topmenu>li>a {
     font-weight: bold;
     color: $baseWhite;
-    padding: 20px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     
     &:hover {
         border-bottom: 3px solid $baseYellow;
