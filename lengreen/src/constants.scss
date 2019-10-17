@@ -1,18 +1,21 @@
 @import './fonts.scss';
+
 $baseBlack: rgb(0, 0, 0);
 $baseWhite: rgb(255, 255, 255);
-$baseYellow: #FFC42D;
-$darkOrange:#FFC42D;
-$orange:#FCD369;
-$lightOrange:#FCE097;
-$lightOrange2:#FFEEC2;
-$lightOrange3:#FFF7E2;
-$lightOrange4:#FDFAF3;
+$baseYellow: #AA8D66;
 $black: #1e1e1e;
 $lightBlack: #333333;
 $softGray: #424242;
 $darkGray: #242424;
 $gray: #CBCAC7;
 $footerGray:#f4f4f4;
+
 // fonts
 $roboto: Roboto;
+
+// fonts sizes
+$logo: 110px;
+$title: 30px;
+$text: 20px;
+$button: 1.3rem;
+$small: 15px;

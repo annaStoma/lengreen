@@ -1,55 +1,59 @@
 @import '../../../constants.scss';
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-.cont{
-  background-color: $black;
+.cont {
+    background-color: $black;
 }
+
 .header {
     display: flex;
     justify-content: space-around;
-    font-size: 24px;
-    line-height: 56px;
+    font-size: $text;
     text-transform: uppercase;
-    padding-top: 23px;
-    height: 100px;
+    // padding-top: 18px;
+    align-items: center;
+    height: 88px;
     color: $baseWhite;
     background-color: $lightBlack;
 
     &__logo {
-      font-size:36px;
+        font-size: $title;
     }
 
     &__contacts {
         display: flex;
+        font-size: $small;
 
         &__number,
         &__mail {
-          font-weight: 500;
-
             &-icon {
-               width: 20px;
-               height: 20px;
-               margin-left: 50px;
-               display: inline-block;;
-               background-image: url('../../../assets/images/telephone.svg');
-               background-size: cover;
-
-               &.mi{
-                background-image: url('../../../assets/images/email.svg');
+                width: 15px;
+                height: 15px;
+                margin-left: 30px;
+                display: inline-block;
+                background-image: url('../../../assets/images/white/telephone.svg');
                 background-size: cover;
-               }
+                
+                &.mi {
+                    background-image: url('../../../assets/images/white/envelope.svg');
+                    background-size: cover;
+                }
             }
         }
     }
 }
 
 .title {
-  text-align: center;
-  width: 50%;
-  font-weight: bold;
-  font-size: 50px;
-  margin: auto;
-  margin-top: 205px;
-  background-color: $black;
-  color: $baseWhite;
+    text-align: center;
+    width: 40%;
+    font-size: $title;
+    margin: auto;
+    margin-top: 100px;
+    background-color: $black;
+    color: $baseWhite;
+    &-logo {
+        font-weight: bold;
+        font-size: $logo;
+        text-align: center;
+        text-transform: uppercase;
+    }
 }

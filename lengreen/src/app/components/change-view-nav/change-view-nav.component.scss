@@ -1,16 +1,15 @@
 @import '../../../constants.scss';
 
 .navigation {
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 350;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: $text;
+    line-height: 20px;
     color: $lightBlack;
     background-color: $black;
-
 
     &-link {
         padding-left: 10px;
@@ -18,9 +17,9 @@
         text-decoration: none;
 
         &:visited {
-          color: $gray;
+            color: $gray;
         }
-
+        
         &:hover {
             color: $baseWhite;
             border-bottom: 3px solid $baseYellow;
@@ -29,8 +28,7 @@
     }
 }
 
-        
-a:active{
-  border-bottom: 3px solid $baseYellow;
-  color: $baseBlack !important;
+a:active {
+    border-bottom: 3px solid $baseYellow;
+    color: $baseBlack !important;
 }

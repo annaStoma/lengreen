@@ -1,30 +1,34 @@
 @import '../../../constants.scss';
 
 header {
-    height: 250px;
+    height: 200px;
     background-color: $black;
     position: relative;
 
     .button {
-        text-align: center; 
+        text-align: center;
         width: 100%;
-        
-        &-calculate{
+
+        &-calculate {
             color: $gray;
             width: 18%;
-            height: 90px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-bottom: 5px;
             border: 3px solid $gray;
-            border-radius: 60px;
-            font-size: 2rem;
+            border-radius: 30px;
+            font-size: 1.3rem;
             background: none;
             outline: none;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             position: absolute;
-            bottom: 0px;
-            left: 0; 
-            right: 0; 
-            margin-left: auto; 
-            margin-right: auto; 
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
 
             &:hover {
                 color: $baseWhite;
@@ -36,12 +40,11 @@ header {
 }
 
 header a {
-
     display: block;
     text-decoration: none;
     outline: none;
     font-family: 'Roboto';
-    font-size: 30px;
+    font-size: $text;
     cursor: pointer;
     color: $baseWhite;
 }
@@ -50,7 +53,6 @@ nav {
     display: table;
     margin: 0 auto;
 }
-
 
 nav ul {
     list-style: none;
@@ -62,7 +64,6 @@ nav ul {
     content: "";
     display: table;
     clear: both;
-
 }
 
 .topmenu>li {
@@ -73,10 +74,10 @@ nav ul {
 .topmenu>li>a {
     font-weight: bold;
     color: $baseWhite;
-    padding: 15px 30px;
+    padding: 20px 20px;
+    
     &:hover {
         border-bottom: 3px solid $baseYellow;
         color: $baseWhite !important;
     }
 }
-
