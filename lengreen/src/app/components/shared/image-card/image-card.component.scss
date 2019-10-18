@@ -1,0 +1,21 @@
+@import '../../../../constants.scss';
+
+.img {
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover{
+      box-shadow: 0 0 15px $baseBlack;
+      transition: 0.5s;
+    }
+
+    &-full {
+      width: 100%;
+      height: auto;
+      max-height: 50%;
+    }
+}

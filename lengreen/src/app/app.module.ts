@@ -24,23 +24,12 @@ import { AboutComponent } from './components/about/about.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CardComponent } from './components/shared/card/card.component';
 import { FurnitureForKitchenComponent } from './components/furniture-for-kitchen/furniture-for-kitchen.component';
+import { FurnitureForLivingRoomComponent } from './components/furniture-for-living-room/furniture-for-living-room.component';
 import { FullInfoComponent } from './components/full-info/full-info.component';
 import { CalculateTheCostButtonComponent } from './components/shared/calculate-the-cost-button/calculate-the-cost-button.component';
 import { NavigationPrivatePageComponent } from './components/navigation-private-page/navigation-private-page.component';
-
-
-// platformBrowserDynamic()
-//     .bootstrapModule(ImageSladerComponentModule)
-//     .then(ref => {
-//       // Ensure Angular destroys itself on hot reloads.
-//       if (window['ngRef']) {
-//         window['ngRef'].destroy();
-//       }
-//       window['ngRef'] = ref;
-
-//       // Otherwise, log the boot error
-//     })
-//     .catch(err => console.error(err));
+import { ImageCardComponent } from './components/shared/image-card/image-card.component';
+import { ImageDialogComponent } from './components/shared/image-dialog/image-dialog.component';
 
 
 @NgModule({
@@ -61,9 +50,12 @@ import { NavigationPrivatePageComponent } from './components/navigation-private-
     AboutComponent,
     CardComponent,
     FurnitureForKitchenComponent,
+    FurnitureForLivingRoomComponent,
     FullInfoComponent,
     CalculateTheCostButtonComponent,
     NavigationPrivatePageComponent,
+    ImageCardComponent,
+    ImageDialogComponent,
   ],
   imports: [
     BrowserModule,

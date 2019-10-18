@@ -4,6 +4,8 @@ import { PrivateClientsPageComponent } from './pages/private-clients-page/privat
 import { CorporativeClientsPageComponent } from './pages/corporative-clients-page/corporative-clients-page.component';
 import { FurnitureForKitchenComponent } from './components/furniture-for-kitchen/furniture-for-kitchen.component';
 import { FullInfoComponent } from './components/full-info/full-info.component';
+import { FurnitureForLivingRoomComponent } from './components/furniture-for-living-room/furniture-for-living-room.component';
+import { ImageDialogComponent } from './components/shared/image-dialog/image-dialog.component';
 
 
 const routes: Routes = [
@@ -12,6 +14,8 @@ const routes: Routes = [
   {path:'corporative', component: CorporativeClientsPageComponent },
   {path:'private/kitchen', component: FurnitureForKitchenComponent },
   {path:'private/kitchen/:id', component: FullInfoComponent }, 
+  {path:'private/living-room', component: FurnitureForLivingRoomComponent },
+  {path:'private/living-room/:id', component: ImageDialogComponent }, 
 ];
 
 @NgModule({

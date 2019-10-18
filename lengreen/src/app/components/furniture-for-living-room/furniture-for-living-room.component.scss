@@ -1,0 +1,8 @@
+@import '../../../constants.scss';
+
+.images{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: $lightBlack;
+}
