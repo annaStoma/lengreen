@@ -1,0 +1,13 @@
+.title {
+    width: 100%;
+    // border: 1px solid red;
+    padding-top: 30px;
+    &-elems {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

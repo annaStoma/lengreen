@@ -30,6 +30,9 @@ import { CalculateTheCostButtonComponent } from './components/shared/calculate-t
 import { NavigationPrivatePageComponent } from './components/navigation-private-page/navigation-private-page.component';
 import { ImageCardComponent } from './components/shared/image-card/image-card.component';
 import { ImageDialogComponent } from './components/shared/image-dialog/image-dialog.component';
+import { CalculateKitchenFormComponent } from './calculate-kitchen-form/calculate-kitchen-form.component';
+import { CalculateClosetFormComponent } from './calculate-closet-form/calculate-closet-form.component';
+import { CalculateProjectFormComponent } from './calculate-project-form/calculate-project-form.component';
 
 
 @NgModule({
@@ -56,6 +59,9 @@ import { ImageDialogComponent } from './components/shared/image-dialog/image-dia
     NavigationPrivatePageComponent,
     ImageCardComponent,
     ImageDialogComponent,
+    CalculateKitchenFormComponent,
+    CalculateClosetFormComponent,
+    CalculateProjectFormComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,59 +1,92 @@
 @import '../../../constants.scss';
+
 .furniture {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    // flex-direction: column;
+    // align-items: center;
     background-color: $black;
-    padding-bottom: 40px;
+    // padding-bottom: 40px;
+
     &-title {
         font-weight: 500;
         font-size: $title;
-        color: $baseWhite;
+        color: $lightBlack;
+
         &__title-number {
             font-size: $title;
-            color: $baseYellow;
+            color: $orange;
             margin-right: 20px;
         }
     }
+
+    &-img1 {
+        background-image: url(../../../assets/images/kitchen1.jpg);
+        background-size: cover;
+        width: 50%;
+        height: 630px;
+    }
+
+    &-img2 {
+        background-image: url(../../../assets/images/kitchen2.jpg);
+        background-size: cover;
+        width: 50%;
+        height: 630px;
+        position: relative;
+
+    }
+
+    &-img3 {
+        background-image: url(../../../assets/images/kitchen3.jpg);
+        background-size: cover;
+        width: 50%;
+        height: 630px;
+
+    }
+
+
     &-descr {
-        margin-top: 40px;
+        height: 630px;
+        // margin-top: 40px;
         font-size: $text;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         padding-top: 30px;
         padding-bottom: 30px;
-        color: $gray;
-        &-descr1 {
-            background-color: $lightBlack;
-        }
-        &-descr2 {
-            background-color: $darkGray;
-        }
-        &-descr3 {
-            background-color: $lightBlack;
-        }
+        width: 90%;
+        background-color: $skin;
+        color: $lightGray;
+        // &-descr1 {
+        //     background-color: $lightBlack;
+        // }
+        // &-descr2 {
+        //     background-color: $darkGray;
+        // }
+        // &-descr3 {
+        //     background-color: $lightBlack;
+        // }
         &__text {
             width: 70%;
             text-align: center;
         }
         &__items {
-            margin-top: 40px;
+            margin-top: 20px;
         }
         &__button {
-            color: $softGray;
-            width: 15%;
+            color: $lightGray;
+            width: 30%;
             height: 60px;
             font-size: $button;
-            border: 3px solid $softGray;
+            border: 3px solid $lightGray;
             border-radius: 30px;
             background: none;
             margin-top: 40px;
             outline: none;
             &:hover {
                 color: $baseWhite;
-                border: 3px solid $baseYellow;
-                background-color: $baseYellow;
+                border: 3px solid $orange;
+                background-color: $orange;
             }
         }
     }

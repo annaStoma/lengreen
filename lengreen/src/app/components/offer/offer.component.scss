@@ -4,13 +4,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $black;
+    background-color: $backPrivate;
     padding-bottom: 40px;
+    color: $lightBlack;
+
 
     &-title {
         margin-top: 70px;
         font-size: $title;
-        color: $baseWhite;
+        display: flex;
+        flex-direction: column;
+
+        &__line {
+            width: 70px;
+            height: 4px;
+            background-color: $orange;
+            align-self: center;
+            margin-top: 25px;
+        }
     }
 
     &-items {
@@ -37,7 +48,6 @@
             &__title {
                 font-weight: bold;
                 font-size: $text;
-                color: $baseWhite;
                 width: 80%;
                 text-align: center;
                 height: 100px;
@@ -48,16 +58,16 @@
 
             &__text {
                 font-size: $text;
-                color: $gray;
+                color: $lightGray;
                 width: 80%;
                 text-align: center;
             }
 
             &__button {
-                color: $softGray;
+                color: $lightGray;
                 width: 40%;
                 height: 60px;
-                border: 3px solid $softGray;
+                border: 3px solid $lightGray;
                 border-radius: 30px;
                 font-size: $button;
                 background: none;
@@ -66,8 +76,10 @@
                 outline: none;
 
                 &:hover {
-                    color: $baseYellow;
-                    border: 3px solid $baseYellow;
+                    color: $baseWhite;
+                    border: 3px solid $orange;
+                    background-color: $orange;
+
                 }
             }
         }
@@ -75,15 +87,15 @@
     
     .item {
         &-1 {
-            background-color: $lightBlack;
+            background-color: $backPrivate;
         }
 
         &-2 {
-            background-color: $darkGray;
+            background-color: $backPrivate;
         }
 
         &-3 {
-            background-color: $lightBlack;
+            background-color: $backPrivate;
         }
     }
 }

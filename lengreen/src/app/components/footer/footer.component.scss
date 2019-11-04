@@ -2,12 +2,16 @@
 
 .footer {
     height: 320px;
-    background-color: $softGray;
-    color: $baseWhite;
+    width: 100%;
+    background-color: $backPrivate;
+    color: $lightBlack;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     padding-top: 60px;
+    // position: absolute;
+ 
+	// bottom: 0;
     // font-weight: bold;
 
     &-logo {
@@ -30,7 +34,7 @@
                 height: 20px;
                 margin-right: 20px;
                 display: inline-block;
-                background-image: url('../../../assets/images/white/time.svg');
+                background-image: url('../../../assets/images/time.svg');
                 background-size: cover;
             }
         }
@@ -55,13 +59,13 @@
                 height: 20px;
                 margin-right: 20px;
                 display: inline-block;
-                background-image: url('../../../assets/images/white/telephone.svg');
+                background-image: url('../../../assets/images/telephone.svg');
                 background-size: cover;
             }
         }
 
         .mi {
-            background-image: url('../../../assets/images/white/envelope.svg');
+            background-image: url('../../../assets/images/email.svg');
         }
     }
     

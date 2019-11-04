@@ -17,7 +17,6 @@ export class FurnitureForKitchenComponent implements OnInit {
     this.router.navigate(['/private/kitchen', id]);
   }
 
-
   items: any = [
     {
       id: '01',

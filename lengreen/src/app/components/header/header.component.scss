@@ -8,32 +8,43 @@
     display: flex;
     justify-content: space-around;
     font-size: $text;
-    text-transform: uppercase;
     align-items: center;
-    height: 88px;
-    color: $baseWhite;
-    background-color: $lightBlack;
+    height: 100px;
+    color: $lightBlack;
+    background-color: $baseWhite;
+    font-weight: 500;
 
     &__logo {
         font-size: $text;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        &-text{
+            width: 400px;
+            // width: 70%;
+        }
     }
 
     &__contacts {
         display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         font-size: $small;
+        width: 40%;
 
         &__number,
         &__mail {
+            min-width: 190px;
             &-icon {
                 width: 15px;
                 height: 15px;
-                margin-left: 30px;
+                margin-left: 20px;
                 display: inline-block;
-                background-image: url('../../../assets/images/white/telephone.svg');
+                background-image: url('../../../assets/images/telephone.svg');
                 background-size: cover;
                 
                 &.mi {
-                    background-image: url('../../../assets/images/white/envelope.svg');
+                    background-image: url('../../../assets/images/email.svg');
                     background-size: cover;
                 }
             }
@@ -42,17 +53,18 @@
 }
 
 .title {
+    width: 20%;
     text-align: center;
-    width: 40%;
-    font-size: $title;
-    margin: auto;
-    margin-top: 100px;
-    background-color: $black;
-    color: $baseWhite;
+    font-size: $text;
+    color: $lightBlack;
     &-logo {
         font-weight: bold;
         font-size: $logo;
         text-align: center;
         text-transform: uppercase;
+
+    span {
+        color: $orange;
+    }
     }
 }
