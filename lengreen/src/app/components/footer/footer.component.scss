@@ -3,16 +3,12 @@
 .footer {
     height: 320px;
     width: 100%;
-    background-color: $backPrivate;
+    background-color: $baseWhite;
     color: $lightBlack;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     padding-top: 60px;
-    // position: absolute;
- 
-	// bottom: 0;
-    // font-weight: bold;
 
     &-logo {
         display: flex;

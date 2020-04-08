@@ -25,7 +25,7 @@ export class FurnitureForKitchenComponent implements OnInit {
       material: "ДСП Egger",
       facades: "Суперматовый Fenix NTM",
       prise: 167,
-      url: 'https://interactive-examples.mdn.mozilla.net/media/examples/grapefruit-slice-332-332.jpg'
+      url: 'https://bellacasa.by/images/com_hikashop/upload/thumbnails/600x800fsO/112.jpg'
     },
     {
       id: '02',
@@ -34,7 +34,7 @@ export class FurnitureForKitchenComponent implements OnInit {
       material: "ДСП Egger",
       facades: "Суперматовый Fenix NTM",
       prise: 107,
-      url: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg'
+      url: 'https://bellacasa.by/images/com_hikashop/upload/thumbnails/600x800fsO/01_406181173.jpg'
     },
     {
       id: '03',
@@ -43,7 +43,7 @@ export class FurnitureForKitchenComponent implements OnInit {
       material: "ДСП Egger",
       facades: "Суперматовый Fenix NTM",
       prise: 675,
-      url: 'https://thumbs.dreamstime.com/z/%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D1%80%D0%B0%D1%81%D0%BE%D1%87%D0%BD%D1%8B%D0%B5-%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B8-104312198.jpg'
+      url: 'https://bellacasa.by/images/com_hikashop/upload/thumbnails/600x800fsO/image48.jpg'
     },
     {
       id: '04',
@@ -52,7 +52,7 @@ export class FurnitureForKitchenComponent implements OnInit {
       material: "ДСП Egger",
       facades: "Суперматовый Fenix NTM",
       prise: 167,
-      url: 'https://interactive-examples.mdn.mozilla.net/media/examples/grapefruit-slice-332-332.jpg'
+      url: 'https://bellacasa.by/images/com_hikashop/upload/thumbnails/600x800fsO/image39_690850922.jpg'
     },
     {
       id: '05',
@@ -61,7 +61,7 @@ export class FurnitureForKitchenComponent implements OnInit {
       material: "ДСП Egger",
       facades: "Суперматовый Fenix NTM",
       prise: 107,
-      url: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg'
+      url: 'https://bellacasa.by/images/com_hikashop/upload/thumbnails/600x800fsO/image47.jpg'
     },
     {
       id: '06',
@@ -70,7 +70,7 @@ export class FurnitureForKitchenComponent implements OnInit {
       material: "ДСП Egger",
       facades: "Суперматовый Fenix NTM",
       prise: 675,
-      url: 'https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fstartswithabang%2Ffiles%2F2018%2F12%2FHD-163296.jpg'
+      url: 'https://bellacasa.by/images/com_hikashop/upload/thumbnails/600x800fsO/41a.jpg'
     },
     {
       id: '07',
@@ -79,7 +79,7 @@ export class FurnitureForKitchenComponent implements OnInit {
       material: "ДСП Egger",
       facades: "Суперматовый Fenix NTM",
       prise: 167,
-      url: 'https://interactive-examples.mdn.mozilla.net/media/examples/grapefruit-slice-332-332.jpg'
+      url: 'https://bellacasa.by/images/com_hikashop/upload/thumbnails/600x800fsO/1_20190722_1540793106.jpg'
     },
     {
       id: '08',
@@ -88,7 +88,7 @@ export class FurnitureForKitchenComponent implements OnInit {
       material: "ДСП Egger",
       facades: "Суперматовый Fenix NTM",
       prise: 107,
-      url: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg'
+      url: 'https://bellacasa.by/images/com_hikashop/upload/thumbnails/600x800fsO/001-.jpg'
     },
   ]
 

@@ -1,25 +1,48 @@
 @import '../../../constants.scss';
-
 .production {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: $black;
-    color: $baseWhite;
+    background-color: $backCorporative;
+
+    &-block {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-img {
+        background-color: brown;
+        width: 50%;
+        // height: 30rem;
+    }
 
     &-title {
         margin-top: 70px;
         font-size: $title;
-        color: $baseYellow;
+        color: $lightBlack;
+        margin-bottom: 20px;
+        text-align: center;
+
+        &__line {
+            width: 70px;
+            height: 3px;
+            background-color: $orange;
+            align-self: center;
+            // margin-top: 25px;
+            margin-bottom: 10px;
+        }
     }
 
     &-items {
+        background-color: $backPrivate;
+        color: $lightBlack;
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 50%;
+        padding-bottom: 50px;
 
         &__item-number {
-            color: $baseYellow;
+            color: $orange;
             margin-right: 20px;
         }
 
@@ -28,56 +51,27 @@
             margin-top: 30px;
         }
 
-        &__item-icon {
-            width: 100px;
-            height: 100px;
-            background-size: 100%;
-            margin-top: 20px;
-        }
-
         &__item-text {
             font-size: $text;
-            width: 60%;
-            text-align: center;
+            width:  85%;
             margin-top: 20px;
+            color: $lightGray;
         }
 
         &__item-blocks {
-            display: flex;
-            margin-top: 70px;
-            flex-wrap: nowrap;
-            width: 100%;
+            margin-top: 50px;
+            width: 85%;
             font-size: $text;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-
-            .block-1 {
-                width: 40%;
-                background-color: $lightBlack;
-                display: flex;
-                justify-content: center;
-            }
-
-            .block-2 {
-                width: 40%;
-                background-color: $softGray;
-                display: flex;
-                justify-content: center;
-            }
-
-            .block-3 {
-                width: 40%;
-                background-color: $lightBlack;
-                display: flex;
-                justify-content: center;
-            }
-            
+         
             .block-text {
-                width: 33%;
-                margin-top: 30px;
-                margin-bottom: 30px;
+                width: 90%;
+                margin-bottom: 10px;
+
             }
         }
     }
+}
+
+.line{
+    margin-top: 30px;
 }

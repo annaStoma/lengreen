@@ -6,15 +6,18 @@ import { FurnitureForKitchenComponent } from './components/furniture-for-kitchen
 import { FullInfoComponent } from './components/full-info/full-info.component';
 import { FurnitureForLivingRoomComponent } from './components/furniture-for-living-room/furniture-for-living-room.component';
 import { ImageDialogComponent } from './components/shared/image-dialog/image-dialog.component';
-import { CalculateClosetFormComponent } from './calculate-closet-form/calculate-closet-form.component';
-import { CalculateKitchenFormComponent } from './calculate-kitchen-form/calculate-kitchen-form.component';
-import { CalculateProjectFormComponent } from './calculate-project-form/calculate-project-form.component';
+import { CalculateClosetFormComponent } from './components/calculate-closet-form/calculate-closet-form.component';
+import { CalculateKitchenFormComponent } from './components/calculate-kitchen-form/calculate-kitchen-form.component';
+import { CalculateProjectFormComponent } from './components/calculate-project-form/calculate-project-form.component';
 
 
 const routes: Routes = [
   {path:'', redirectTo: 'private', pathMatch: 'full'},
   {path:'private', component: PrivateClientsPageComponent },
-  {path:'private/kitchen-cost', component: CalculateKitchenFormComponent }, 
+  {path:'private/kitchen-cost', 
+  component: CalculateKitchenFormComponent
+  // outlet: "cost"
+}, 
   {path:'private/closet-cost', component: CalculateClosetFormComponent }, 
   {path:'private/project-cost', component: CalculateProjectFormComponent }, 
   {path:'corporative', component: CorporativeClientsPageComponent },

@@ -7,6 +7,7 @@
     margin: 30px;
     cursor: pointer;
     transition: 0.5s;
+
     
     &-image {
         width: 300px;
@@ -17,8 +18,8 @@
         display: flex;
         height: 150px;
         flex-direction: column;
-        background-color: $cardBlack;
-        color: $baseWhite;
+        background-color: $skin;
+        color: $lightBlack;
 
         &__name{
           font-size: $title;
@@ -34,13 +35,13 @@
           align-items: center;
           font-weight: bold;
           font-size: $title + 6px;
-          color: $baseYellow;
+          color: $orange;
 
           &-line {
             display: inline-block;
             width: 60%;
             height: 3px;
-            background-color: $baseYellow;
+            background-color: $orange;
           }
         }
 

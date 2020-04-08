@@ -3,8 +3,8 @@
 .item{
   display: flex;
   justify-content: space-around;
-  background-color: $darkGray;
-  color: $baseWhite;
+  background-color: $backPrivate;
+  color: $lightGray;
   padding: 40px 40px;
 
   &-img { 
@@ -22,7 +22,8 @@
 
     &__name{
       font-size: $title;
-      color: $baseYellow;
+      color: $orange;
+      font-weight: bold;
     }
 
     &-elem {
@@ -32,10 +33,11 @@
       &-prise {
         font-size: $title;
         font-weight: bold;
+        color: $orange;
       }
 
       &__title {
-        color: $baseWhite;
+        color: $lightBlack;
       }
     }
   }

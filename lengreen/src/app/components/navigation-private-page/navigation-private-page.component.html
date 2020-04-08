@@ -17,11 +17,12 @@
             </li>
             <li><a>Рассчитать стоимость<img src="../../../assets/images/drop-down-arrow.svg"></a>
                 <ul class="submenu">
-                    <li><a routerLink="project-cost">проекта</a></li>
+                    <li><a routerLinkActive='active' routerLink="project-cost">проекта</a></li>
                     <!-- <span class="gray-line"> </span> -->
-                    <li><a routerLink="closet-cost">шкафа-купе</a></li>
+                    <li><a routerLinkActive='active' routerLink="closet-cost">шкафа-купе</a></li>
                     <!-- <span class="gray-line"> </span> -->
-                    <li><a routerLink="kitchen-cost">кухни</a></li>
+                    <li><a routerLinkActive='active' routerLink="kitchen-cost">кухни</a></li>
+                    <!-- [routerLink]="[{ outlets: { primary: ['kitchen-cost'],cost: ['kitchen-cost'] } }]" -->
                 </ul>
             </li>
             <li><a href="">Контакты</a></li>
